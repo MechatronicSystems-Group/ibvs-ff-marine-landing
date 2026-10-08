@@ -1,6 +1,7 @@
-## TODO: Write a readme (lol)
+## ROS2 Feed-Forward Image-Based Visual Servoing (FF-IBVS) UAV Marine Landing
+Project code for autonomous marine landing of an unmanned aerial vessel on a marine target using an IBVS-FF controller. Documented in MSc dissertation 'Development and Experimental Evaluation of Image-Based Visual Servoing for Autonomous UAV Marine Landing' included in the repository as 'dissertation.pdf'. Appendices A and B of the aforementioned dissertation contain an install and user guide for using the code published here.
 
-## ROS 2 packages
+### ROS 2 packages
 
 The project is organised into the following ROS 2 packages:
 
@@ -16,10 +17,6 @@ The project is organised into the following ROS 2 packages:
 | `utils` | General utilities for simulation bridging, camera drivers, and rosbag recording. | `gz_groundtruth.launch.py`, `rpi_global_cam.launch.py`, `rosbag_sim.launch.py`, `rosbag_real.launch.py` |
 
 
-## PX4 Custom Parameters
+### PX4 Custom Parameters
 LNDMC_XY_VEL_MAX = 5m/s # Allow landing with high horizontal drift
 EKF2_REQ_HDRIFT disable
-
-## Docker Setup
-Performance tested on RTX3070 + AMD Ryzen 5-3600 using Nvidia Container Toolkit. 
-Enable docker xhost for GUI: xhost +local:docker
