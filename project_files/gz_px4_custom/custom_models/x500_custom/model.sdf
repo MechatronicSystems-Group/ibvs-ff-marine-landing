@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version='1.9'>
+  <model name='x500_custom'>
+    <self_collide>false</self_collide>
+
+    <!-- X500 Base Model -->
+    <include merge='true'>
+      <uri>x500</uri>
+    </include>
+
+    <!-- Downwards facing non-stereo camera -->
+    <include merge='true'>
+      <uri>model://mono_cam_custom</uri>
+      <pose>0 0 0.185 0 1.5707 1.5707</pose>
+    </include>
+    <joint name="CameraJoint" type="fixed">
+      <parent>base_link</parent>
+      <child>camera_link</child>
+      <pose relative_to="base_link">0 0 0 0 1.5707 0</pose>
+    </joint>
+    
+    <plugin
+      filename="gz-sim-odometry-publisher-system"
+      name="gz::sim::systems::OdometryPublisher">
+      <odom_publish_frequency>60</odom_publish_frequency>
+      <dimensions>3</dimensions>
+      <odom_topic>x500/odom</odom_topic>
+      <odom_covariance_topic>x500/odom_covariance</odom_covariance_topic>
+    </plugin>
+    
+    <plugin
+    	filename="gz-sim-pose-publisher-system"
+    	name="gz::sim::systems::PosePublisher">
+    	<publish_link_pose>true</publish_link_pose>
+    	<publish_collision_pose>false</publish_collision_pose>
+      	<publish_visual_pose>false</publish_visual_pose>
+      	<publish_nested_model_pose>false</publish_nested_model_pose>
+    </plugin>
+
+  </model>
+</sdf>

@@ -1,0 +1,426 @@
+<?xml version="1.0" ?>
+<sdf version="1.11">
+  <model name="point_cloud">
+    <static>true</static>
+    <link name="point_1">
+      <pose>0.000000 0.000000 1.927436 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_2">
+      <pose>7.728958 -3.382285 1.949366 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_3">
+      <pose>8.241013 -6.388281 2.005410 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_4">
+      <pose>-2.793680 10.021293 1.894336 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_5">
+      <pose>-6.660522 31.382450 1.811481 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_6">
+      <pose>-23.535646 48.677678 1.835922 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_7">
+      <pose>-39.862733 64.088047 1.871671 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_8">
+      <pose>-60.604331 87.262895 1.822760 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_9">
+      <pose>-86.180448 113.788759 1.856954 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_10">
+      <pose>-119.144321 154.723877 1.881214 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_11">
+      <pose>-134.342389 181.147360 1.871195 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_12">
+      <pose>-149.054279 209.250287 1.892825 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_13">
+      <pose>-163.302996 237.673637 1.975788 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_14">
+      <pose>-176.764005 267.683948 1.902807 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_15">
+      <pose>-188.893773 299.677771 1.913300 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_16">
+      <pose>-199.626111 330.069809 1.899504 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_17">
+      <pose>-226.142829 381.977532 1.959787 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_18">
+      <pose>-250.130026 406.844342 1.985895 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_19">
+      <pose>-272.342978 428.680988 1.938461 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_20">
+      <pose>-292.432174 451.092475 1.971063 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_21">
+      <pose>-308.095014 480.193210 1.870990 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_22">
+      <pose>-319.219015 508.671554 1.928630 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_23">
+      <pose>-337.175907 534.130102 1.963162 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_24">
+      <pose>-374.355692 566.106941 1.964141 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_25">
+      <pose>-408.533505 628.870636 1.807048 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_26">
+      <pose>-421.046093 689.118998 1.836282 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_27">
+      <pose>-439.866162 722.258917 1.981350 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_28">
+      <pose>-457.376474 746.568889 1.962961 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_29">
+      <pose>-472.390447 774.189006 1.898832 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_30">
+      <pose>-482.178779 802.175609 1.907135 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_31">
+      <pose>-492.518229 832.699142 1.880371 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_32">
+      <pose>-505.969332 858.776113 1.861136 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_33">
+      <pose>-521.961243 882.746908 1.909639 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_34">
+      <pose>-542.804856 906.934227 1.975630 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_35">
+      <pose>-563.710139 928.984315 1.930058 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_36">
+      <pose>-597.439715 963.869176 1.946608 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_37">
+      <pose>-616.080319 996.112939 1.951444 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_38">
+      <pose>-620.962634 1025.180006 1.953785 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_39">
+      <pose>-617.334975 1058.252730 1.968072 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_40">
+      <pose>-621.920541 1095.825307 1.954788 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_41">
+      <pose>-636.180068 1129.815232 2.033502 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_42">
+      <pose>-645.887306 1153.191463 2.010026 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_43">
+      <pose>-651.211492 1168.268481 1.953039 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_44">
+      <pose>-656.274915 1182.573452 1.958970 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_45">
+      <pose>-661.231545 1198.369853 1.925153 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_46">
+      <pose>-666.167193 1224.764778 1.806862 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_47">
+      <pose>-676.824111 1265.151023 1.939102 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_48">
+      <pose>-685.626370 1291.992624 1.902973 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_49">
+      <pose>-692.388059 1318.757094 1.954717 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_50">
+      <pose>-698.393619 1345.446158 1.940288 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_51">
+      <pose>-704.245156 1371.583943 1.914361 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_52">
+      <pose>-707.572146 1397.606390 1.915944 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_53">
+      <pose>-706.783424 1424.826731 1.795272 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_54">
+      <pose>-703.592152 1450.035858 1.872677 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_55">
+      <pose>-698.856501 1476.443725 1.933263 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_56">
+      <pose>-692.876411 1502.174034 1.933370 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_57">
+      <pose>-687.929666 1527.535967 2.008390 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_58">
+      <pose>-684.207219 1553.514151 2.126910 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_59">
+      <pose>-681.141776 1578.230838 2.063108 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_60">
+      <pose>-676.351316 1604.803291 1.929057 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_61">
+      <pose>-669.861794 1630.248260 1.756874 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_62">
+      <pose>-661.994814 1658.621430 1.759238 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_63">
+      <pose>-655.394917 1686.114458 1.918944 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_64">
+      <pose>-650.579322 1713.768861 1.789517 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_65">
+      <pose>-644.358583 1741.178733 1.827858 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_66">
+      <pose>-637.051420 1768.714070 1.902203 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_67">
+      <pose>-621.461089 1818.434694 1.905928 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_68">
+      <pose>-610.259019 1849.949124 1.996986 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_69">
+      <pose>-603.627478 1879.380080 2.046315 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_70">
+      <pose>-600.241873 1908.257742 1.989950 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_71">
+      <pose>-597.750641 1936.624163 1.940015 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_72">
+      <pose>-595.376027 1963.534552 1.915419 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_73">
+      <pose>-594.236622 1989.358099 1.856766 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_74">
+      <pose>-591.875236 2016.903537 1.856520 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_75">
+      <pose>-587.483084 2041.964923 1.810600 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_76">
+      <pose>-582.861630 2069.687106 1.835018 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_77">
+      <pose>-582.079529 2098.260131 1.938165 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_78">
+      <pose>-583.907220 2128.205564 2.003504 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_79">
+      <pose>-585.386283 2158.076788 2.039966 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_80">
+      <pose>-583.458093 2186.801788 1.940677 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_81">
+      <pose>-581.408453 2216.092063 1.822874 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_82">
+      <pose>-577.444039 2245.088439 1.854566 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_83">
+      <pose>-571.970171 2275.690865 1.971843 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_84">
+      <pose>-566.374670 2307.040677 2.028672 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_85">
+      <pose>-560.393163 2336.803716 1.983792 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_86">
+      <pose>-553.604911 2366.922120 1.921547 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_87">
+      <pose>-546.272300 2395.443393 1.843533 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_88">
+      <pose>-538.859351 2423.062849 1.792779 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_89">
+      <pose>-531.822077 2452.051187 1.861145 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_90">
+      <pose>-523.433304 2481.097543 1.985873 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_91">
+      <pose>-514.994320 2509.128193 1.999855 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_92">
+      <pose>-504.865963 2538.022854 1.974834 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_93">
+      <pose>-497.477456 2564.488093 1.991581 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_94">
+      <pose>-490.952933 2588.256035 2.088237 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_95">
+      <pose>-483.515545 2612.480300 2.077388 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_96">
+      <pose>-477.279104 2634.557852 1.986931 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_97">
+      <pose>-472.884515 2657.533110 1.825273 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_98">
+      <pose>-469.690368 2680.386688 1.792930 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_99">
+      <pose>-469.289933 2707.965206 1.937549 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_100">
+      <pose>-471.025263 2738.772158 1.997345 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_101">
+      <pose>-464.786464 2764.982922 2.016333 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_102">
+      <pose>-456.478046 2791.271220 1.951971 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_103">
+      <pose>-447.836325 2816.957845 1.977306 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_104">
+      <pose>-440.077530 2843.255483 1.882053 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_105">
+      <pose>-432.669049 2868.048074 1.841019 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_106">
+      <pose>-421.225029 2893.654321 1.803804 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_107">
+      <pose>-404.809796 2916.559865 2.111996 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_108">
+      <pose>-383.702162 2932.626592 1.920686 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_109">
+      <pose>-358.716475 2942.210786 1.844373 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_110">
+      <pose>-332.408037 2950.470242 1.985583 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_111">
+      <pose>-305.825093 2954.987282 1.791007 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_112">
+      <pose>-279.491969 2958.493008 1.988803 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_113">
+      <pose>-251.236280 2963.646792 2.074705 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_114">
+      <pose>-222.685242 2967.911913 1.869875 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_115">
+      <pose>-193.829334 2965.672262 1.899296 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_116">
+      <pose>-163.739924 2957.398788 1.948953 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_117">
+      <pose>-133.679974 2949.512048 1.867730 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_118">
+      <pose>-107.112560 2934.777836 2.000247 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_119">
+      <pose>-79.634449 2920.951551 1.901837 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_120">
+      <pose>-54.407370 2904.960941 1.802537 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_121">
+      <pose>-31.048012 2885.302092 1.952621 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_122">
+      <pose>-7.427384 2866.297104 1.947066 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_123">
+      <pose>20.412870 2854.606173 1.930833 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_124">
+      <pose>46.373154 2839.086130 1.962589 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_125">
+      <pose>69.057423 2819.591467 1.958677 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_126">
+      <pose>92.623751 2801.172832 1.881544 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_127">
+      <pose>116.263575 2783.933038 1.799108 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_128">
+      <pose>140.624699 2767.302100 2.034030 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_129">
+      <pose>165.048638 2749.042453 1.978423 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_130">
+      <pose>186.802870 2727.475503 1.851408 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_131">
+      <pose>206.808537 2704.558668 1.853593 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_132">
+      <pose>228.633136 2681.413410 2.035751 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_133">
+      <pose>253.119671 2657.692481 2.098644 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_134">
+      <pose>274.923591 2632.598015 1.814539 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_135">
+      <pose>294.947767 2607.208856 1.873148 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_136">
+      <pose>310.620164 2577.091210 1.973154 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_137">
+      <pose>320.970491 2541.449249 1.684821 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_138">
+      <pose>331.946720 2501.501227 2.040233 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_139">
+      <pose>347.177962 2459.341024 1.870147 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_140">
+      <pose>369.111593 2419.170662 2.058153 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_141">
+      <pose>396.743068 2381.803628 1.956636 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_142">
+      <pose>427.066768 2346.057318 2.012800 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_143">
+      <pose>458.158352 2311.055930 1.858466 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_144">
+      <pose>499.387601 2291.005768 2.040775 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_145">
+      <pose>544.960298 2278.798381 1.684101 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_146">
+      <pose>589.881257 2265.351516 2.106654 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_147">
+      <pose>635.234876 2250.727805 2.036629 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_148">
+      <pose>679.389536 2234.998312 1.825930 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_149">
+      <pose>713.533199 2204.456243 2.086002 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_150">
+      <pose>726.005029 2158.615828 1.790380 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_151">
+      <pose>734.052181 2110.094884 1.805939 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_152">
+      <pose>739.238071 2061.891466 1.989476 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_153">
+      <pose>743.975915 2014.422339 1.961797 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_154">
+      <pose>754.144969 1967.559850 1.831494 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_155">
+      <pose>760.295858 1919.963872 1.968164 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_156">
+      <pose>768.493628 1873.011398 1.836759 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_157">
+      <pose>781.603262 1827.255463 1.827832 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_158">
+      <pose>795.892800 1780.874869 2.060181 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_159">
+      <pose>803.199418 1731.010424 2.174388 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_160">
+      <pose>801.238198 1681.775244 1.861211 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_161">
+      <pose>793.405665 1632.538831 1.701935 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_162">
+      <pose>787.323528 1584.627144 1.842813 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_163">
+      <pose>793.846956 1535.668949 2.212787 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_164">
+      <pose>809.424912 1488.221357 2.027131 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_165">
+      <pose>830.132284 1443.905962 1.987305 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_166">
+      <pose>845.550666 1397.706428 1.952120 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_167">
+      <pose>860.232256 1350.320213 1.610784 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_168">
+      <pose>880.294370 1306.089954 2.114633 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_169">
+      <pose>907.074754 1266.640162 1.926310 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_170">
+      <pose>933.515308 1226.168934 1.941266 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_171">
+      <pose>957.365100 1181.842893 1.810902 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_172">
+      <pose>964.121507 1133.985955 2.054576 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_173">
+      <pose>949.520171 1090.801749 2.035246 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_174">
+      <pose>916.822107 1054.854554 1.841012 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_175">
+      <pose>887.459657 1018.884185 1.950459 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_176">
+      <pose>868.882375 977.542374 1.795142 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_177">
+      <pose>843.042535 935.280383 1.862155 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_178">
+      <pose>810.824325 900.020112 2.093199 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_179">
+      <pose>769.691233 888.787023 1.919030 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_180">
+      <pose>734.449842 916.593207 1.641356 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_181">
+      <pose>694.622216 924.760316 2.084693 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_182">
+      <pose>663.158102 892.049367 1.934565 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_183">
+      <pose>634.858397 850.978883 1.843589 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_184">
+      <pose>603.814872 812.258577 1.824968 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_185">
+      <pose>571.176083 775.453129 1.905204 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_186">
+      <pose>539.018229 737.918374 1.903658 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_187">
+      <pose>509.872423 698.621937 1.962956 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_188">
+      <pose>481.637844 658.709132 1.928690 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_189">
+      <pose>453.655308 619.490876 1.848208 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_190">
+      <pose>426.186246 579.802969 2.038675 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_191">
+      <pose>400.672005 538.678612 1.879732 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_192">
+      <pose>378.740410 495.044262 1.986504 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_193">
+      <pose>359.033983 451.074609 1.800429 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_194">
+      <pose>338.863938 406.281655 1.883440 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_195">
+      <pose>315.910766 361.775022 2.023916 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_196">
+      <pose>292.442639 317.847981 1.760901 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_197">
+      <pose>270.235583 272.588709 1.905536 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_198">
+      <pose>249.288326 226.646145 1.882026 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_199">
+      <pose>228.403285 182.375086 2.104148 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_200">
+      <pose>205.960838 139.169519 1.938713 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_201">
+      <pose>181.379568 96.613953 1.811865 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_202">
+      <pose>155.692632 56.557682 1.891991 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_203">
+      <pose>132.405811 23.959933 1.917780 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_204">
+      <pose>99.843181 -0.579145 2.045500 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_205">
+      <pose>64.362977 2.981055 1.881015 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_206">
+      <pose>38.639603 15.574178 2.112546 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_207">
+      <pose>17.807866 10.944196 2.023755 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_208">
+      <pose>2.289143 3.655878 1.976560 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_209">
+      <pose>-11.661597 0.351804 1.914269 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n    <link name="point_210">
+      <pose>-15.680165 -0.064637 1.952863 0 0 0</pose>
+      <visual name="visual">\n        <geometry>\n          <sphere>\n            <radius>0.2</radius>\n          </sphere>\n        </geometry>\n        <material>\n          <ambient>1 0 0 1</ambient>\n          <diffuse>1 0 0 1</diffuse>\n        </material>\n      </visual>\n    </link>\n  </model>
+</sdf>

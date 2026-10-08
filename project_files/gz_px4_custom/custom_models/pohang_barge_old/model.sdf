@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<sdf version="1.11">
+  <model name="pohang_barge">
+    <link name="base_link">
+
+      <inertial>
+        <mass>0.0001</mass>
+        <inertia>
+          <ixx>1e-09</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1e-09</iyy>
+          <iyz>0</iyz>
+          <izz>1e-09</izz>
+        </inertia>
+      </inertial>
+
+      <!-- GPS tracking the barge -->
+      <sensor name="navsat_sensor" type="navsat">
+        <gz_frame_id>base_link</gz_frame_id>
+        <always_on>1</always_on>
+        <update_rate>5</update_rate>
+
+        <navsat>
+          <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <stddev>1.2e-5</stddev>
+            </noise>
+          </horizontal>
+        </position_sensing>
+        </navsat>
+        
+        <topic>/barge/gps</topic>
+      </sensor>
+
+    </link>
+
+    <link name="rigid_group_1_1">
+      <inertial>
+        <mass>10000</mass>
+        <inertia>
+          <ixx>10000</ixx>
+          <iyy>10000</iyy>
+          <izz>10000</izz>
+        </inertia>
+      </inertial>
+
+      <!-- body1 -->
+      <visual name="rigid_group_1_1__body1_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body1_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body2 -->
+      <visual name="rigid_group_1_1__body2_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body2_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body3 -->
+      <visual name="rigid_group_1_1__body3_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body3_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body4 -->
+      <visual name="rigid_group_1_1__body4_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body4_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body5 -->
+      <visual name="rigid_group_1_1__body5_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body5_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body6 -->
+      <visual name="rigid_group_1_1__body6_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body6_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body7 -->
+      <visual name="rigid_group_1_1__body7_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body7_visual.obj</uri>
+          </mesh>
+        </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.5 0.8 0.5 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+      </visual>
+
+      <!-- body8 -->
+      <visual name="rigid_group_1_1__body8_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body8_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- body9 -->
+      <visual name="rigid_group_1_1__body9_visual">
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body9_visual.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.1 0.3 1</ambient>
+          <diffuse>0.0 0.1 0.6 1</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+      <!-- collisions unchanged -->
+      <collision name="rigid_group_1_1__body1_collision">
+        <pose relative_to="__model__">0.0 0.0 -0.1 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.2 7.9 2.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body2_collision">
+        <pose relative_to="__model__">-0.07405320373339386 -5.751766144025233e-11 -0.9299048710903611 3.1415926528421667 -1.3089969390061658 -7.22151965131561e-10</pose>
+        <geometry>
+          <box>
+            <size>0.7995119524175354 8.0 0.5187596816905417</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body3_collision">
+        <pose relative_to="__model__">0.8259467962666065 -5.7517661440252314e-11 -0.9299048710903611 3.1415926528421667 -1.3089969390061658 -7.221519651315611e-10</pose>
+        <geometry>
+          <box>
+            <size>0.7995119524175354 8.0 0.5187596816905415</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body4_collision">
+        <pose relative_to="__model__">1.3 -2.150000000000002 0.5000000000000004 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 0.1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body5_collision">
+        <pose relative_to="__model__">-1.3 2.65 0.5 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 0.1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body6_collision">
+        <pose relative_to="__model__">-1.3000000000000012 -2.15 0.49999999999999983 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>2.0000000000000004 0.1 0.10000000000000014</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body7_collision">
+        <pose relative_to="__model__">0.0 0.65 1.5 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.2 6.6 2.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body8_collision">
+        <pose relative_to="__model__">1.3 2.65 0.5 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>2.0 0.1 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body9_collision">
+        <pose relative_to="__model__">-0.9740532037333941 -5.7517661440252295e-11 -0.9299048710903612 3.1415926528421667 -1.3089969390061658 -7.221519651315611e-10</pose>
+        <geometry>
+          <box>
+            <size>0.7995119524175353 8.0 0.5187596816905414</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <plugin
+      filename="libBargeController.so"
+      name="custom::BargeController">
+      <link_name>rigid_group_1_1</link_name>
+    </plugin>
+
+    <!-- ArucoTag model for good practice -->
+    <include>
+      <uri>model://arucotag_0</uri>
+      <name>arucotag_0</name>
+      <pose>0 0 1.632 0 0 3.141</pose>
+    </include>
+    
+    <include>
+      <uri>model://arucotag_19</uri>
+      <name>arucotag_19</name>
+      <pose>0 0 1.63 0 0 3.141</pose>
+    </include>
+
+    <!-- Fixed joint -->
+    <joint name="fixed_joint_to_arucotag_0" type="fixed">
+      <parent>base_link</parent>   <!-- A link in the parent model -->
+      <child>arucotag_0::base_0</child> <!-- Link inside child model -->
+    </joint>
+    
+    <joint name="fixed_joint_to_arucotag_19" type="fixed">
+      <parent>base_link</parent>   <!-- A link in the parent model -->
+      <child>arucotag_19::base_19</child> <!-- Link inside child model -->
+    </joint>
+
+    <!-- Pose publisher -->
+    <plugin
+      filename="gz-sim-odometry-publisher-system"
+      name="gz::sim::systems::OdometryPublisher">
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <dimensions>3</dimensions>
+      <odom_topic>barge/odom</odom_topic>
+      <odom_covariance_topic>barge/odom_covariance</odom_covariance_topic>
+    </plugin>
+
+    <joint name="base_link_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>rigid_group_1_1</child>
+      <axis/>
+    </joint>
+    
+  </model>
+</sdf>

@@ -1,0 +1,13 @@
+[submodule "src/vision_opencv"]
+	path = src/vision_opencv
+	url = https://github.com/ros-perception/vision_opencv.git
+[submodule "src/mocap"]
+	path = src/mocap
+	url = https://github.com/fnndyl/GZ-ROS2-Mocap.git
+[submodule "src/px4_msgs"]
+	path = src/px4_msgs
+	url = https://github.com/PX4/px4_msgs.git
+	branch = release/1.16
+[submodule "project_files/gz-px4-custom"]
+	path = project_files/gz-px4-custom
+	url = https://github.com/fnndyl/gz-px4-custom.git

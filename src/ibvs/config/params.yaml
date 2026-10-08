@@ -1,0 +1,12 @@
+ibvs_node:
+  ros_parameters:
+
+    # Parameters for saturation of IBVS controller
+    max_lin_vel: 0.25
+    max_vert_vel: 0.50
+    max_angular_vel: 0.10
+
+    # Parameters for IBVS
+    out_t_offset: 200
+    in_t_offset: 350
+    self.z_est: 1

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <model name="pohang_canal_19_large">
+      <static>true</static>
+      <pose>-24.3 1364.67 -5.95 0 0 0</pose>
+
+      <link name="ground">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>model://pohang_19_large/textures/pohang_19_large_height_map.tif</uri>
+              <size>3713.65 3696.58 70.2</size>
+              <pos>-24.3 1364.67  -5.95</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+	
+      <collision name="collision">
+	<geometry>
+	  <plane>
+	    <normal>0 0 1</normal>
+	    <size>3713.65 3696.58</size>
+	  </plane>
+	</geometry>
+      </collision>
+	
+        
+        <visual name="ground_visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <texture>
+                <diffuse>model://pohang_19_large/textures/pohang_19_large_aerial.png</diffuse>
+                <normal>model://pohang_19_large/textures/pohang_19_large_aerial.png</normal>
+                <size>3713.65 3696.58 70.2</size>
+              </texture>
+              <uri>model://pohang_19_large/textures/pohang_19_large_height_map.tif</uri>
+              <size>3713.65 3696.58 70.2</size>
+              <pos>-24.3 1364.67 -5.95</pos>
+              <sampling>2</sampling>
+
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+</sdf>

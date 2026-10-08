@@ -1,0 +1,512 @@
+<?xml version="1.0" ?>
+<sdf version="1.11">
+  <model name="pohang_barge">
+
+    <link name="base_link">
+
+      <inertial>
+        <mass>0.0001</mass>
+        <inertia>
+          <ixx>1e-09</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1e-09</iyy>
+          <iyz>0</iyz>
+          <izz>1e-09</izz>
+        </inertia>
+      </inertial>
+
+      <!-- GPS tracking the barge -->
+      <sensor name="navsat_sensor" type="navsat">
+        <gz_frame_id>base_link</gz_frame_id>
+        <always_on>1</always_on>
+        <update_rate>1</update_rate>
+
+        <navsat>
+          <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <stddev>1.2e-5</stddev>
+            </noise>
+          </horizontal>
+        </position_sensing>
+        </navsat>
+        
+        <topic>/barge/gps</topic>
+      </sensor>
+
+      <!-- Groundtruth GPS tracking the barge -->
+      <sensor name="groundtruth_navsat_sensor" type="navsat">
+        <gz_frame_id>base_link</gz_frame_id>
+        <always_on>1</always_on>
+        <update_rate>30</update_rate>
+
+        <navsat>
+          <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <stddev>0.0</stddev>
+            </noise>
+          </horizontal>
+        </position_sensing>
+        </navsat>
+        
+        <topic>/barge/gz_groundtruth_gps</topic>
+      </sensor>
+
+    </link>
+
+    <link name="rigid_group_1_1">
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 -0.0 0.0</pose>
+        <mass>10000</mass>
+        <inertia>
+          <ixx>10000</ixx>
+          <iyy>10000</iyy>
+          <izz>10000</izz>
+        </inertia>
+      </inertial>
+      
+      <visual name="rigid_group_1_1__body1_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body1_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body2_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body2_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body3_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body3_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body4_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body4_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body5_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body5_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body6_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body6_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body7_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body7_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body8_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body8_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body9_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body9_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body10_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body10_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body11_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body11_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body12_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body12_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body13_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body13_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body14_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body14_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body15_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body15_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body16_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body16_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body17_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body17_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body18_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body18_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body19_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body19_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body20_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body20_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body21_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body21_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body22_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body22_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="rigid_group_1_1__body23_visual">
+        <pose> 0 -4 0 0 0 0 </pose> <!-- mod -->
+        <geometry>
+          <mesh>
+            <scale>0.01 0.01 0.01</scale>
+            <uri>meshes/rigid_group_1_1/body23_visual.obj</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rigid_group_1_1__body1_collision">
+        <pose relative_to="__model__">0.0 -0.07760557161971007 0.39 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.78 7.899999999999999 2.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body2_collision">
+        <pose relative_to="__model__">1.3091712984793202 2.7723944283802884 1.009013921906406 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.415 0.1736757583557119 0.1736757583557119</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body3_collision">
+        <pose relative_to="__model__">-0.49372832725050236 3.4413944283803097 2.025831558562522 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.1516631171250441 0.14200000000000046 0.15166311712504424</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body4_collision">
+        <pose relative_to="__model__">-0.28060957850807905 3.4413944283803097 2.025831558562522 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.1516631171250441 0.14200000000000046 0.15166311712504424</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body5_collision">
+        <pose relative_to="__model__">5.684341886080802e-16 3.774593733387486 1.9983688793657182 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.09673775873143654 0.3230463818096746 0.3230463818096746</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body6_collision">
+        <pose relative_to="__model__">0.0 -2.9752073711466442 1.7548884461195584 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.5060872145969944 0.6663524437643003 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body7_collision">
+        <pose relative_to="__model__">-1.3091712984793202 2.7723944283802884 1.009013921906406 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.415 0.1736757583557119 0.1736757583557119</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body8_collision">
+        <pose relative_to="__model__">4.263256414560601e-16 -3.249026927857019 0.10999999999999999 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 1.4771572875253804 2.519999999999999</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body9_collision">
+        <pose relative_to="__model__">5.684341886080802e-16 -3.461393657224969 1.066638213589763 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.09673775873143625 0.3230463818096746 0.3230463818096746</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body10_collision">
+        <pose relative_to="__model__">0.48468047379425977 3.4413944283803097 2.025831558562522 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.1516631171250441 0.14200000000000046 0.15166311712504424</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body11_collision">
+        <pose relative_to="__model__">7.105427357601002e-16 0.2723944283802894 0.19 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 5.6633809586679105 2.2633809586679092</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body12_collision">
+        <pose relative_to="__model__">2.842170943040401e-16 3.434161358288616 0.10999999999999999 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.02 0.810722187321536 2.5342560471381894</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body13_collision">
+        <pose relative_to="__model__">0.0 0.4203929378302905 1.9755576417107052 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.30888471657858874 5.8440029811 2.600001881429384</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body14_collision">
+        <pose relative_to="__model__">0.0 -3.188886479239051 0.9 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.6 0.7716370238292086 0.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body15_collision">
+        <pose relative_to="__model__">5.684341886080802e-16 3.6223944283802996 1.025 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.85 0.5000000000000204 2.2</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body16_collision">
+        <pose relative_to="__model__">-3.552713678800501e-17 -3.704660994669814 -0.1342851820443572 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.3717154657998476 0.7141108461002097 0.5000000000000001</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body17_collision">
+        <pose relative_to="__model__">-1.25 -0.909849865763372 1.3538065090970317 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.1453292304760583 3.136318124513548 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body18_collision">
+        <pose relative_to="__model__">-1.2500000000024074 2.402744169886584 1.5834748154213876 1.570796326787967 -0.7853981645369817 -1.5707963268046965</pose>
+        <geometry>
+          <box>
+            <size>0.7448189181832927 1.5745212776546214 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body19_collision">
+        <pose relative_to="__model__">1.25 -0.909849865763372 1.3538065090970317 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>1.1453292304760583 3.136318124513548 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body20_collision">
+        <pose relative_to="__model__">1.2499999999975926 2.402744169886584 1.5834748154213876 1.570796326787967 -0.7853981645369817 -1.5707963268046965</pose>
+        <geometry>
+          <box>
+            <size>0.7448189181832925 1.5745212776546214 0.05</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body21_collision">
+        <pose relative_to="__model__">-1.0799022142936425 0.18260878463769414 -0.34187878426356005 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.6773910345313103 7.511649319372327 0.5276180924708257</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body22_collision">
+        <pose relative_to="__model__">1.0980977857063572 0.18260878463769414 -0.34187878426356005 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.6773910345313103 7.511649319372327 0.5276180924708257</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="rigid_group_1_1__body23_collision">
+        <pose relative_to="__model__">0.00909778570635737 0.18260878463769414 -0.34187878426356005 -0.0 -1.5707963267948966 0</pose>
+        <geometry>
+          <box>
+            <size>0.6773910345313103 7.511649319372327 0.5276180924708257</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- ArucoTag model for good practice -->
+    <include>
+      <uri>model://arucotag_0</uri>
+      <name>arucotag_0</name>
+      <pose>0 0 2.16 0 0 3.141</pose>
+    </include>
+    
+    <include>
+      <uri>model://arucotag_19</uri>
+      <name>arucotag_19</name>
+      <pose>0 0 2.15 0 0 3.141</pose>
+    </include>
+
+    <!-- Fixed joint -->
+    <joint name="fixed_joint_to_arucotag_0" type="fixed">
+      <parent>base_link</parent>   <!-- A link in the parent model -->
+      <child>arucotag_0::base_0</child> <!-- Link inside child model -->
+    </joint>
+    
+    <joint name="fixed_joint_to_arucotag_59" type="fixed">
+      <parent>base_link</parent>   <!-- A link in the parent model -->
+      <child>arucotag_19::base_19</child> <!-- Link inside child model -->
+    </joint>
+
+    <joint name="base_link_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>rigid_group_1_1</child>
+      <pose>0 0.0 0 0 0 0.0</pose>
+      <axis/>
+    </joint>
+
+    <!-- Plugins -->
+
+    <plugin
+      filename="libBargeController.so"
+      name="custom::BargeController">
+      <link_name>rigid_group_1_1</link_name>
+    </plugin>
+
+    <plugin
+      filename="gz-sim-odometry-publisher-system"
+      name="gz::sim::systems::OdometryPublisher">
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <dimensions>3</dimensions>
+      <odom_topic>barge/odom</odom_topic>
+      <odom_covariance_topic>barge/odom_covariance</odom_covariance_topic>
+    </plugin>
+
+  </model>
+</sdf>

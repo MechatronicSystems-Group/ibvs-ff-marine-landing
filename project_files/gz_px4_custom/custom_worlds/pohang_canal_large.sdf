@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.9">
+  <world name="pohang_canal_large">
+    <physics type="ode">
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+    </physics>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type="adiabatic"/>
+    <scene>
+      <grid>false</grid>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <light name="sunUTC" type="directional">
+      <pose>0 0 500 0 -0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1.2</intensity>
+      <direction>0.001 0.625 -0.78</direction>
+      <diffuse>0.904 0.904 0.904 1</diffuse>
+      <specular>0.271 0.271 0.271 1</specular>
+      <attenuation>
+        <range>2000</range>
+        <linear>0</linear>
+        <constant>1</constant>
+        <quadratic>0</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <world_frame_orientation>ENU</world_frame_orientation>
+      <latitude_deg>36.023585513</latitude_deg>
+      <longitude_deg>129.378142980</longitude_deg>
+      <elevation>0</elevation>
+    </spherical_coordinates>
+
+    <include>
+      <uri>model://pohang_canal_19_large</uri>
+    </include> 
+
+    <include> <!-- full -->
+      <pose>-10 -10 2.5 0 0 0</pose>
+      <name>full_pad</name>
+      <uri>model://starting_pad</uri>
+    </include>
+
+    <include> <!-- canal -->
+      <pose>-98.66 150.28 2.5 0 0 0</pose> <!-- -108.66 140.28 2.5 0 0 0 -->
+      <name>canal_pad</name>
+      <uri>model://starting_pad</uri>
+    </include>
+
+    <include> <!-- port -->
+      <pose>-626.00 1780 2.5 0 0 0</pose> <!-- -636.00 1770.00 2.5 0 0 0 -->
+      <name>port_pad</name>
+      <uri>model://starting_pad</uri>
+    </include>
+
+    <include> <!-- near-coastal -->
+      <pose>506 2301 2.5 0 0 0</pose> <!-- 496.00 2291.00 2.5 0 0 0 -->
+      <name>near_costal_pad</name>
+      <uri>model://starting_pad</uri>
+    </include>
+
+    <include>
+      <pose>0 0 2 0 0 1.5714</pose>
+      <uri>model://pohang_barge</uri>
+    </include>
+    
+    <include>
+      <pose>0 0 -.75 0 0 0</pose>
+      <uri>model://points</uri>
+    </include>
+
+  </world>
+</sdf>

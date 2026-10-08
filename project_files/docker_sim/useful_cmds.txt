@@ -1,0 +1,11 @@
+# Build docker image
+docker compose -f sim-compose.linux.yml build
+
+# Start sim docker image
+docker compose -f sim-compose.linux.yml up -d
+
+# Attach to image
+docker attach ibvs_sim
+
+# Stop image
+docker compose -f sim-compose.linux.yml down
