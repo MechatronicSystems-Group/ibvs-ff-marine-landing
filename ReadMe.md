@@ -19,4 +19,5 @@ The project is organised into the following ROS 2 packages:
 
 ### PX4 Custom Parameters
 LNDMC_XY_VEL_MAX = 5m/s # Allow landing with high horizontal drift
+
 EKF2_REQ_HDRIFT disable
